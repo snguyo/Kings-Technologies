@@ -10,39 +10,81 @@
     <a href="https://github.com/snguyo">
         <img src="https://www.google.com/search?q=github+icon&sxsrf=ALeKk03uI9FzrOeefdhKvb86D9nI2ZZNKg:1591192106034&tbm=isch&source=iu&ictx=1&fir=7Irz-_yZl291hM%253A%252CBGHEb2Jx6z9IQM%252C_&vet=1&usg=AI4_-kQz5elB2U3If_bgWHLpd64MkL8exg&sa=X&ved=2ahUKEwjylP_B5OXpAhXm1uAKHW3sBy4Q9QEwAXoECAsQLQ#imgrc=7Irz-_yZl291hM:" alt="GitHub" height="30" width="30">
 </a>
-
-              
-    <title> Kings Website </title>
+<meta charset="UTF-8">
+              <title> Kings Website </title>
+</head>
+<body>
+<main>
+    <nav>
+        <ul id="mainMenu">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="support.html">SUPPORT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <link href="horizontal-menu.css" rel="stylesheet">
     <style>
+        ol,ul{
+            list-style:none;
+        }
+        #mainMenu{
+            margin:10px;
+            width:900px;
+            font-family:sans-serif;
+            }
+            #mainMenu li{
+                display:block;
+                width:120px;
+                float:left;
+                margin-left:2px;
+                border:1px solid #000;
+            }
+            #mainMenu a{
+                display:block;
+                padding:3px;
+                text-decoration:none;
+                background-color:lightblue;
+                color:#009;
+            }
+            #mainMenu a:hover{
+                background-color:#009;
+                color:#fff;
+            }
+        </style>
+        </main>
+            <style>
         a:link {
             text-decoration: none;
         }
         p{
-            border:5px solid green;
-            background-color:lightblue;
             padding-right: 50px;
             padding-left: 80px;
             padding-top:30px;
             padding-bottom:60px;
             margin-right:150px;
-            margin-left:100px;
-            outline:rgb(122, 65, 65) solid 10px 
+            margin-left:100px; 
         
         }
-        ul{
-            border:5px solid green;
-            background-color: lightblue;
+        ul {
             padding-right: 50px;
             padding-left: 80px;
             padding-top: 30px;
             padding-bottom: 60px;
             margin-right:150px;
             margin-left:100px;
-            outline:rgb(122, 65, 65) solid 10px
+            list-style-image: url('sqpurple.gif');
+        }
+        ul li{
+            margin:5px
         }
         body {
-            background-color: rgb(196, 159, 159);
+            background-color: rgb(160, 117, 117);
         }
+        
     </style>
 
     <body>
