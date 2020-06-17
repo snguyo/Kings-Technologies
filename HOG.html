@@ -16,7 +16,7 @@
 <body>
 <main>
     <nav>
-        <ul id="mainMenu">
+        <ul class="nav">
             <li><a href="home.html">HOME</a></li>
             <li><a href="services.html">SERVICES</a></li>
             <li><a href="products.html">PRODUCTS</a></li>
@@ -28,32 +28,18 @@
     </nav>
     <link href="horizontal-menu.css" rel="stylesheet">
     <style>
-        ol,ul{
-            list-style:none;
-        }
-        #mainMenu{
-            margin:10px;
-            width:900px;
-            font-family:sans-serif;
-            }
-            #mainMenu li{
-                display:block;
-                width:120px;
-                float:left;
-                margin-left:2px;
-                border:1px solid #000;
-            }
-            #mainMenu a{
-                display:block;
-                padding:3px;
-                text-decoration:none;
-                background-color:lightblue;
-                color:#009;
-            }
-            #mainMenu a:hover{
-                background-color:#009;
-                color:#fff;
-            }
+       .nav { 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
         </style>
         </main>
             <style>
@@ -62,24 +48,24 @@
         }
         p{
             padding-right: 50px;
-            padding-left: 80px;
-            padding-top:30px;
-            padding-bottom:60px;
+            padding-left: 100px;
+            padding-top:15px;
+            padding-bottom:15px;
             margin-right:150px;
             margin-left:100px; 
         
         }
         ul {
             padding-right: 50px;
-            padding-left: 80px;
-            padding-top: 30px;
-            padding-bottom: 60px;
+            padding-left: 100px;
+            padding-top: 15px;
+            padding-bottom: 15px;
             margin-right:150px;
             margin-left:100px;
             list-style-image: url('sqpurple.gif');
         }
         ul li{
-            margin:5px
+            margin:5px;
         }
         body {
             background-color: rgb(160, 117, 117);
